@@ -1,0 +1,41 @@
+.QuoteView h1 {
+    max-width: 500px;
+}
+.QuoteView h1 {
+    font-size: 36px;
+    color: #fff;
+}
+.QuoteView ul {
+    padding: 0;
+    margin: 0;
+}
+.QuoteView ul li {
+    font-size: 42px;
+    font-weight: bold;
+    color: red;
+    padding: 10px 30px;
+    border: 1px dashed red;
+    margin-bottom: 20px;
+}
+.QuoteView ul li.error {
+    font-size: 26px;
+}
+.QuoteView ul li:last-child {
+    margin-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+    .QuoteView h1 {
+        font-size: 28px;
+    }
+    .QuoteView ul li {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .QuoteView h1 {
+        font-size: 26px;
+    }
+    .QuoteView ul li {
+        font-size: 20px;
+    }
+}
